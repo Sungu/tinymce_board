@@ -1,0 +1,5 @@
+제목                작성자                    작성시간                             조회수  <a href="/home/new">글작성하기</a>
+<% @post.each do |x| %>
+  <p><a href="/home/show/<%=x.id %>"><%= x.title %> | <%= User.find(x.user_id).name %> |  <%= time_ago_in_words(x.created_at) %> | <%= x.click_num %></a></p>
+<% end %>
+

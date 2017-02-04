@@ -1,0 +1,33 @@
+menubar: false
+relative_urls : false
+browser_spellcheck : true
+paste_merge_formats: true
+paste_retain_style_properties: all
+body_class: tinymce-editor
+imagetools_cors_hosts: ['www.tinymce.com', 'codepen.io']
+toolbar:
+  - formatselect | fontselect | fontsizeselect | forecolor  | bold | italic | underline | strikethrough 
+  - preview | undo redo | alignleft  aligncenter  alignjustify  alignright | uploadimage
+plugins:
+  - textcolor
+  - visualblocks
+  - code
+  - image
+  - advlist
+  - print
+  - contextmenu
+  - anchor
+  - charmap
+  - autoresize
+  - uploadimage
+  - link
+  - paste
+  - importcss
+  - autolink
+  - lists
+  - wordcount
+  - colorpicker
+  - hr
+  - preview
+  - searchreplace
+  
